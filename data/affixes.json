@@ -1,0 +1,320 @@
+{
+  "_comment": "База аффиксов кыргызского языка. Каждый аффикс имеет до 8 фонетических аллoморфов, выбираемых по правилам сингармонизма: гармонии гласных (palatal/labial) и ассимиляции согласных (voicing/sonorant).",
+  "_variant_keys": {
+    "harmony_keys": ["a", "e", "o", "ö"],
+    "comment": "a = задние неогуб. (а,ы); e = передние неогуб. (е,и); o = задние огуб. (о,у); ö = передние огуб. (ө,ү)"
+  },
+  "noun_affixes": [
+    {
+      "id": "PL",
+      "category": "Plural",
+      "tag": "Pl",
+      "gloss": "мн. число",
+      "variants": {
+        "after_vowel": {"a": "лар", "e": "лер", "o": "лор", "ö": "лөр"},
+        "after_sonorant": {"a": "дар", "e": "дер", "o": "дор", "ö": "дөр"},
+        "after_voiced": {"a": "дар", "e": "дер", "o": "дор", "ö": "дөр"},
+        "after_voiceless": {"a": "тар", "e": "тер", "o": "тор", "ö": "төр"}
+      }
+    },
+    {
+      "id": "POSS_1SG",
+      "category": "Possessive",
+      "tag": "Px1Sg",
+      "gloss": "мой",
+      "variants": {
+        "after_vowel": {"a": "м", "e": "м", "o": "м", "ö": "м"},
+        "after_consonant": {"a": "ым", "e": "им", "o": "ум", "ö": "үм"}
+      }
+    },
+    {
+      "id": "POSS_2SG",
+      "category": "Possessive",
+      "tag": "Px2Sg",
+      "gloss": "твой",
+      "variants": {
+        "after_vowel": {"a": "ң", "e": "ң", "o": "ң", "ö": "ң"},
+        "after_consonant": {"a": "ың", "e": "иң", "o": "уң", "ö": "үң"}
+      }
+    },
+    {
+      "id": "POSS_2SG_POL",
+      "category": "Possessive",
+      "tag": "Px2SgPol",
+      "gloss": "Ваш (вежл.)",
+      "variants": {
+        "after_vowel": {"a": "ңыз", "e": "ңиз", "o": "ңуз", "ö": "ңүз"},
+        "after_consonant": {"a": "ыңыз", "e": "иңиз", "o": "уңуз", "ö": "үңүз"}
+      }
+    },
+    {
+      "id": "POSS_3",
+      "category": "Possessive",
+      "tag": "Px3",
+      "gloss": "его/её/их",
+      "variants": {
+        "after_vowel": {"a": "сы", "e": "си", "o": "су", "ö": "сү"},
+        "after_consonant": {"a": "ы", "e": "и", "o": "у", "ö": "ү"}
+      }
+    },
+    {
+      "id": "POSS_1PL",
+      "category": "Possessive",
+      "tag": "Px1Pl",
+      "gloss": "наш",
+      "variants": {
+        "after_vowel": {"a": "быз", "e": "биз", "o": "буз", "ö": "бүз"},
+        "after_consonant": {"a": "ыбыз", "e": "ибиз", "o": "убуз", "ö": "үбүз"}
+      }
+    },
+    {
+      "id": "POSS_2PL",
+      "category": "Possessive",
+      "tag": "Px2Pl",
+      "gloss": "ваш",
+      "variants": {
+        "after_vowel": {"a": "ңар", "e": "ңер", "o": "ңор", "ö": "ңөр"},
+        "after_consonant": {"a": "ыңар", "e": "иңер", "o": "уңар", "ö": "үңөр"}
+      }
+    },
+    {
+      "id": "NOM",
+      "category": "Case",
+      "tag": "Nom",
+      "gloss": "именительный",
+      "variants": {
+        "after_any": {"a": "", "e": "", "o": "", "ö": ""}
+      }
+    },
+    {
+      "id": "GEN",
+      "category": "Case",
+      "tag": "Gen",
+      "gloss": "родительный",
+      "variants": {
+        "after_vowel": {"a": "нын", "e": "нин", "o": "нун", "ö": "нүн"},
+        "after_sonorant": {"a": "дын", "e": "дин", "o": "дун", "ö": "дүн"},
+        "after_voiced": {"a": "дын", "e": "дин", "o": "дун", "ö": "дүн"},
+        "after_voiceless": {"a": "тын", "e": "тин", "o": "тун", "ö": "түн"}
+      }
+    },
+    {
+      "id": "DAT",
+      "category": "Case",
+      "tag": "Dat",
+      "gloss": "дательный",
+      "variants": {
+        "after_vowel": {"a": "га", "e": "ге", "o": "го", "ö": "гө"},
+        "after_sonorant": {"a": "га", "e": "ге", "o": "го", "ö": "гө"},
+        "after_voiced": {"a": "га", "e": "ге", "o": "го", "ö": "гө"},
+        "after_voiceless": {"a": "ка", "e": "ке", "o": "ко", "ö": "кө"}
+      }
+    },
+    {
+      "id": "ACC",
+      "category": "Case",
+      "tag": "Acc",
+      "gloss": "винительный",
+      "variants": {
+        "after_vowel": {"a": "ны", "e": "ни", "o": "ну", "ö": "нү"},
+        "after_sonorant": {"a": "ды", "e": "ди", "o": "ду", "ö": "дү"},
+        "after_voiced": {"a": "ды", "e": "ди", "o": "ду", "ö": "дү"},
+        "after_voiceless": {"a": "ты", "e": "ти", "o": "ту", "ö": "тү"}
+      }
+    },
+    {
+      "id": "LOC",
+      "category": "Case",
+      "tag": "Loc",
+      "gloss": "местный",
+      "variants": {
+        "after_vowel": {"a": "да", "e": "де", "o": "до", "ö": "дө"},
+        "after_sonorant": {"a": "да", "e": "де", "o": "до", "ö": "дө"},
+        "after_voiced": {"a": "да", "e": "де", "o": "до", "ö": "дө"},
+        "after_voiceless": {"a": "та", "e": "те", "o": "то", "ö": "тө"}
+      }
+    },
+    {
+      "id": "ABL",
+      "category": "Case",
+      "tag": "Abl",
+      "gloss": "исходный",
+      "variants": {
+        "after_vowel": {"a": "дан", "e": "ден", "o": "дон", "ö": "дөн"},
+        "after_sonorant": {"a": "дан", "e": "ден", "o": "дон", "ö": "дөн"},
+        "after_voiced": {"a": "дан", "e": "ден", "o": "дон", "ö": "дөн"},
+        "after_voiceless": {"a": "тан", "e": "тен", "o": "тон", "ö": "төн"}
+      }
+    }
+  ],
+  "verb_affixes": [
+    {
+      "id": "NEG",
+      "category": "Negation",
+      "tag": "Neg",
+      "gloss": "отрицание",
+      "variants": {
+        "after_vowel": {"a": "ба", "e": "бе", "o": "бо", "ö": "бө"},
+        "after_sonorant": {"a": "ба", "e": "бе", "o": "бо", "ö": "бө"},
+        "after_voiced": {"a": "ба", "e": "бе", "o": "бо", "ö": "бө"},
+        "after_voiceless": {"a": "па", "e": "пе", "o": "по", "ö": "пө"}
+      }
+    },
+    {
+      "id": "PST",
+      "category": "Tense",
+      "tag": "Pst",
+      "gloss": "прошедшее категорическое",
+      "variants": {
+        "after_vowel": {"a": "ды", "e": "ди", "o": "ду", "ö": "дү"},
+        "after_sonorant": {"a": "ды", "e": "ди", "o": "ду", "ö": "дү"},
+        "after_voiced": {"a": "ды", "e": "ди", "o": "ду", "ö": "дү"},
+        "after_voiceless": {"a": "ты", "e": "ти", "o": "ту", "ö": "тү"}
+      }
+    },
+    {
+      "id": "PRES",
+      "category": "Tense",
+      "tag": "Pres",
+      "gloss": "настоящее-будущее",
+      "variants": {
+        "after_vowel": {"a": "й", "e": "й", "o": "й", "ö": "й"},
+        "after_consonant": {"a": "а", "e": "е", "o": "о", "ö": "ө"}
+      }
+    },
+    {
+      "id": "FUT",
+      "category": "Tense",
+      "tag": "Fut",
+      "gloss": "будущее определённое",
+      "variants": {
+        "after_vowel": {"a": "ар", "e": "ер", "o": "ор", "ö": "өр"},
+        "after_consonant": {"a": "ар", "e": "ер", "o": "ор", "ö": "өр"}
+      }
+    },
+    {
+      "id": "IMPF",
+      "category": "Tense",
+      "tag": "Impf",
+      "gloss": "длительное (-ып жат-)",
+      "variants": {
+        "after_vowel": {"a": "п жат", "e": "п жат", "o": "п жат", "ö": "п жат"},
+        "after_consonant": {"a": "ып жат", "e": "ип жат", "o": "уп жат", "ö": "үп жат"}
+      }
+    },
+    {
+      "id": "PERF",
+      "category": "Tense",
+      "tag": "Perf",
+      "gloss": "перфект (-ган)",
+      "variants": {
+        "after_vowel": {"a": "ган", "e": "ген", "o": "гон", "ö": "гөн"},
+        "after_sonorant": {"a": "ган", "e": "ген", "o": "гон", "ö": "гөн"},
+        "after_voiced": {"a": "ган", "e": "ген", "o": "гон", "ö": "гөн"},
+        "after_voiceless": {"a": "кан", "e": "кен", "o": "кон", "ö": "көн"}
+      }
+    },
+    {
+      "id": "PERS_1SG",
+      "category": "PersonNumber",
+      "tag": "1Sg",
+      "gloss": "1л. ед.ч.",
+      "variants": {
+        "after_vowel": {"a": "м", "e": "м", "o": "м", "ö": "м"},
+        "after_consonant": {"a": "ым", "e": "им", "o": "ум", "ö": "үм"}
+      }
+    },
+    {
+      "id": "PERS_2SG",
+      "category": "PersonNumber",
+      "tag": "2Sg",
+      "gloss": "2л. ед.ч.",
+      "variants": {
+        "after_vowel": {"a": "ң", "e": "ң", "o": "ң", "ö": "ң"},
+        "after_consonant": {"a": "ың", "e": "иң", "o": "уң", "ö": "үң"}
+      }
+    },
+    {
+      "id": "PERS_3",
+      "category": "PersonNumber",
+      "tag": "3",
+      "gloss": "3л.",
+      "variants": {
+        "after_any": {"a": "", "e": "", "o": "", "ö": ""}
+      }
+    },
+    {
+      "id": "PERS_1PL",
+      "category": "PersonNumber",
+      "tag": "1Pl",
+      "gloss": "1л. мн.ч.",
+      "variants": {
+        "after_vowel": {"a": "к", "e": "к", "o": "к", "ö": "к"},
+        "after_consonant": {"a": "ык", "e": "ик", "o": "ук", "ö": "үк"}
+      }
+    },
+    {
+      "id": "PERS_2PL",
+      "category": "PersonNumber",
+      "tag": "2Pl",
+      "gloss": "2л. мн.ч.",
+      "variants": {
+        "after_vowel": {"a": "ңар", "e": "ңер", "o": "ңор", "ö": "ңөр"},
+        "after_consonant": {"a": "ыңар", "e": "иңер", "o": "уңар", "ö": "үңөр"}
+      }
+    },
+    {
+      "id": "PERS_3PL",
+      "category": "PersonNumber",
+      "tag": "3Pl",
+      "gloss": "3л. мн.ч. (опц.)",
+      "variants": {
+        "after_vowel": {"a": "шат", "e": "шет", "o": "шот", "ö": "шөт"},
+        "after_consonant": {"a": "ышат", "e": "ишет", "o": "ушат", "ö": "үшөт"}
+      }
+    },
+    {
+      "id": "IMP_2SG",
+      "category": "Imperative",
+      "tag": "Imp2Sg",
+      "gloss": "повел. ты",
+      "variants": {
+        "after_any": {"a": "", "e": "", "o": "", "ö": ""}
+      }
+    },
+    {
+      "id": "IMP_2PL",
+      "category": "Imperative",
+      "tag": "Imp2Pl",
+      "gloss": "повел. вы",
+      "variants": {
+        "after_vowel": {"a": "ңыздар", "e": "ңиздер", "o": "ңуздар", "ö": "ңүздөр"},
+        "after_consonant": {"a": "ыңыздар", "e": "иңиздер", "o": "уңуздар", "ö": "үңүздөр"}
+      }
+    }
+  ],
+  "adjective_affixes": [
+    {
+      "id": "COMP",
+      "category": "Degree",
+      "tag": "Comp",
+      "gloss": "сравн. степень",
+      "variants": {
+        "after_vowel": {"a": "раак", "e": "рээк", "o": "раак", "ö": "рөөк"},
+        "after_consonant": {"a": "ыраак", "e": "ирээк", "o": "ураак", "ö": "үрөөк"}
+      }
+    },
+    {
+      "id": "ABSTR",
+      "category": "Derivation",
+      "tag": "Abstr",
+      "gloss": "отвлеч. сущ. (-лык)",
+      "variants": {
+        "after_vowel": {"a": "лык", "e": "лик", "o": "лук", "ö": "лүк"},
+        "after_sonorant": {"a": "дык", "e": "дик", "o": "дук", "ö": "дүк"},
+        "after_voiced": {"a": "дык", "e": "дик", "o": "дук", "ö": "дүк"},
+        "after_voiceless": {"a": "тык", "e": "тик", "o": "тук", "ö": "түк"}
+      }
+    }
+  ]
+}
